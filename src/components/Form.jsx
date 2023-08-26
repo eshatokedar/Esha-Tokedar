@@ -138,6 +138,7 @@ function Form() {
 
         <div className="box-3">
           <label style={labelStyle}>Email</label>
+          <div className="info-box">
           <br />
           <input
             style={inputStyle}
@@ -147,11 +148,13 @@ function Form() {
             onChange={handleEmailChange}
           />
           {emailValid && <span className="green-tick"><BsFillCheckSquareFill/></span>}
+          </div>
         </div>
         <br />
 
         <div className="box-4">
           <label style={labelStyle}>Mobile Number</label>
+          <div className="info-box">
           <br />
           <input
             style={inputStyle}
@@ -161,6 +164,7 @@ function Form() {
             className="mobile-number"
           />
           {mobileValid && <span className="green-tick"><BsFillCheckSquareFill/></span>}
+          </div>
         </div>
         <br />
 
