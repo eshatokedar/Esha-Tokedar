@@ -8,10 +8,9 @@ function Profile() {
       "url('https://ismorbo.com/wp-content/uploads/2016/04/kurt-cobain.jpg')",
     backgroundSize: "cover",
     borderRadius: "40px",
-    marginRight:"1rem",
+    marginLeft:"90rem",
     height:"3rem",
     width:"3rem",
-    float:"right"
   };
 
   const notifStyle = {
@@ -19,11 +18,8 @@ function Profile() {
     width:"40px",
     borderRadius: "2.75rem",
     height: "3rem",
-    marginTop: "10.5rem",
-    marginLeft: "1rem",
-    marginRight: "1.5rem",
-    float:"right",
-    marginTop:"-1px"
+    marginLeft: "87rem",
+    marginTop:"-48px"
   };
   const logoStyle={
     fontSize:"2rem",
@@ -40,3 +36,4 @@ function Profile() {
 }
 
 export default Profile;
+

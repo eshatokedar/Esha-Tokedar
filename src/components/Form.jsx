@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {BsFillCheckSquareFill,BsEye} from 'react-icons/bs';
+import {BsFillCheckSquareFill,BsEye, BsEyeSlash} from 'react-icons/bs';
 import {AiFillFolder} from 'react-icons/ai';
 
 function Form() {
@@ -166,6 +166,7 @@ function Form() {
 
         <div className="box-5">
           <label style={labelStyle}>Password</label>
+          <div className="password-box">
           <br />
           <input
             style={inputStyle}
@@ -178,8 +179,9 @@ function Form() {
           className="password-toggle"
           onClick={toggleShowPassword}
         >
-           {showPassword ? 'Hide' : <BsEye/>}
+           {showPassword ? <BsEyeSlash/> : <BsEye/>}
         </span>
+        </div>
         </div>
         <br />
 
@@ -210,6 +212,7 @@ function Form() {
 
         <div className="box-8">
           <label style={labelStyle}>Resume</label>
+          <div className="resume-box">
           <br />
           <input
             style={inputStyle}
@@ -219,6 +222,7 @@ function Form() {
             onChange={handleResumeUpload}
           />
           <AiFillFolder className="folder-icon"/>
+          </div>
         </div>
         <br />
         <br />
